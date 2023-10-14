@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rojas Bellocq</title>
+	<link rel="icon" href="imagen/cazai.ico">
+	<meta name="description" content="unidad 1 desarrollo de conceptos"/>
+	<meta name="keywords" content="desarrollo, paginas web, diseño, programacion"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<h1>GitHub</h1>
+<div align="justify">
+  <p>En  esta unidad vemos cómo son los pasos para trabajar con sistemas de control de  versiones, permitiendo conocer el estado de un proyecto, los cambios que se  realizan, y las personas que intervienen.</p>
+  <p>&nbsp;</p>
+  Github  es un sitio web y servicio gratuito de alojamiento de repositorios Git.
+  Cualquier  persona o empresa puede abrir una cuenta y alojar la cantidad de repositorios  que desee. Es importante tener en cuenta que, por defecto, los repositorios  alojados en Github  son públicos. Esto quiere decir que cualquier usuario (o no) podrá acceder al  código allí alojado, aunque no podrá realizar modificaciones sin que algún  administrador o dueño del repositorio en cuestión le brinde acceso de  escritura. Además de brindarnos alojamiento gratuito para nuestros  repositorios, Github  nos ofrece varias herramientas adicionales orientadas principalmente a la  colaboración.
+<p>&nbsp; </p>
+</div>
+<h2>Estados de Los Archivos
+</h2>
+<p align="left">Modificado significa que modificamos el archivo pero todavía no lo hemos confirmado a nuestro repositorio. </p>
+<p align="left">Preparado significa que marcamos un archivo modificado en su versión actual para que vaya en tu próxima confirmación.  </p>
+<p align="left">Confirmado significa que los datos están almacenados de manera segura en nuestro repositorio local.</p>
+<p align="left">&nbsp;
+<img align src="imagenes/estados.png" height="300" width="300"> </p>
+<div>
+<h2>Primeros comandos</h2>
+</div> 
+</body>
+
+<footer>
+          <p align="center"><br>
+          Rojas Rodrigo Derechos reservados <br>
+          <a href="/index.html"><IMG SRC="imagenes/volver.jpg" height="100" width="100"></a>   
+          </p>
+
+</footer>
+
+
+
+
+</html>

@@ -12,16 +12,59 @@
 
 <body>
 <h1>GitHub</h1>
-<div align="justify">En  esta unidad vemos cómo son los pasos para trabajar con sistemas de control de  versiones, permitiendo conocer el estado de un proyecto, los cambios que se  realizan, y las personas que intervienen. </div>
-<p align="left">
-Modificado significa que modificamos el archivo pero todavía no lo hemos confirmado a nuestro repositorio. 
-</p>
+<div align="justify">
+  <p>En  esta unidad vemos cómo son los pasos para trabajar con sistemas de control de  versiones, permitiendo conocer el estado de un proyecto, los cambios que se  realizan, y las personas que intervienen.</p>
+  <p>&nbsp;</p>
+  Github  es un sitio web y servicio gratuito de alojamiento de repositorios Git.
+  Cualquier  persona o empresa puede abrir una cuenta y alojar la cantidad de repositorios  que desee. Es importante tener en cuenta que, por defecto, los repositorios  alojados en Github  son públicos. Esto quiere decir que cualquier usuario (o no) podrá acceder al  código allí alojado, aunque no podrá realizar modificaciones sin que algún  administrador o dueño del repositorio en cuestión le brinde acceso de  escritura. Además de brindarnos alojamiento gratuito para nuestros  repositorios, Github  nos ofrece varias herramientas adicionales orientadas principalmente a la  colaboración.
+<p>&nbsp; </p>
+</div>
+<h2>Estados de Los Archivos
+</h2>
+<p align="left">Modificado significa que modificamos el archivo pero todavía no lo hemos confirmado a nuestro repositorio. </p>
 <p align="left">Preparado significa que marcamos un archivo modificado en su versión actual para que vaya en tu próxima confirmación.  </p>
 <p align="left">Confirmado significa que los datos están almacenados de manera segura en nuestro repositorio local.</p>
 <p align="left">&nbsp;
 <img align src="imagenes/estados.png" height="300" width="300"> </p>
-<div>
+<div >
 <h2>Primeros comandos</h2>
+<p align="justify">
+Lo  que Git  nos dice acá es que tenemos &ldquo;Untracked  files&rdquo; o archivos  sin versionar y nos muestra una lista donde  aparece nuestro archivo. También nos indica que para agregarlo en un commit  debemos usar el comando git add seguido  de la ruta del archivo. Entonces escribimos: <br><br>
+  ▪git add compras.txt
+  <br>
+  <br>
+  Este comando no devolverá ningún resultado. Lo que el comando add hace es pasar al archivo al estado denominado stage
+  <br>
+  git add acepta otro tipo de parámetros que nos serán útiles para trabajar con varios archivos a la vez, por ejemplo:<br> <br>
+ git add *.jpg agregará todos los archivos cuyo nombre termine en .jpg al área de stage. <br><br>
+git add ruta/a/directorio agregará todos los archivos del directorio al área de stage. <br><br>
+git add . agregará todos los archivos modificados y/o no trackeados al área de stage. <br><br>
+Si volvemos a ejecutar git status ahora veremos lo siguiente:<br>
+<br>
+<img align src="imagenes/estados 2.jpg" height="300" width="300"></p>
+<p align="justify">Git nos indica que en el próximo commit se incluirá el archivo compras.txt que acabamos de crear y agregar al repositorio. Confirmamos la operación: <br><br>
+  C:\Users\Secretaría 2\Desktop\UNAF-DESARROLLADOR DE SOFTWARE>git commit  -m "crado el archivo compras"<br><br>
+  [master (root-commit) 1e37bbc] crado el archivo compras
+  1 file changed, 3 insertions(+)<br><br>
+  create mode 100644 compras.txt
+  <br>
+  <br>
+  El comando git commit confirma los cambios del área de stage y los guarda en el repositorio. El parámetro -m es requerido y se utiliza para asociar un mensaje al
+  commit que estemos haciendo. Este mensaje va siempre entre comillas dobles. Es muy importante que los mensajes sean lo suficientemente descriptivos como para que si el día de mañana revisamos la historia de nuestro repositorio sepamos donde se hizo cada cambio o conjunto de cambios.<br>
+</p>
+<h2 >Si ya hicimos &ldquo;commit&rdquo;,  solo nos quedan hacer seguir los 3 últimos pasos.</h2>
+<p align="left">
+…or create a new repository on the command line<br><br>
+echo "# unaf" >> README.md<br><br>
+git init<br><br>
+git add README.md<br><br>
+git commit -m "first commit"<br><br>
+git branch -M main<br><br>
+git remote add origin<br><br> https://github.com/carlosazcui/unaf.git<br><br>
+git push -u origin main<br><br>
+</p><br>
+  
+</h2>
 </div> 
 </body>
 
